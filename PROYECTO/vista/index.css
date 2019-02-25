@@ -1,0 +1,288 @@
+
+
+#inicio{
+    margin-top:5%;
+    margin-bottom: 5%;
+    font-family: sans-serif;
+}
+
+#menuAlbums{
+    background-color: gray;
+}
+
+#parteLeft{
+    background-color: #ededed;
+    height: 1000px;
+}
+
+#parteRight{
+    background-color: #ededed;
+    height: 1000px;
+
+}
+
+#imagenFavoritaDiv{
+    margin-top: 2%;
+    margin-left: 1%;
+    background-color: #ededed;
+    height: 400px;
+}
+
+#imagenFavorita{
+    width: 98%;
+    height: 98%;
+}
+
+#escribeAlgo{
+    margin-top: 10%;
+    font-family: sans-serif;
+}
+
+#publicar{
+    width: 75%;
+    height: 150px;
+    border: 2px solid black;
+    font-family: sans-serif;
+}
+
+.icono{
+    width: 20%;
+    margin-top: 20%;
+    margin-left: 10%;
+
+    border: 5px solid black;
+    border-radius: 5%;
+}
+
+#subir{
+margin-left: 2%;
+}
+
+#tituloActividad{
+    font-family: sans-serif;
+    font-size: 300%;
+    margin-top:5%;
+}
+
+#actividad{
+    background-color: white;
+    margin-left: 5%;
+    height: 80%;
+    width: 90%;
+}
+
+#salir{
+    position:relative;
+    right: -5%;
+    top: 25px;
+    
+    width: 30px;
+    height: 30px;
+}
+#nombreUsuario{
+    position:relative;
+    right: 100px;
+    font-family:sans-serif;
+}
+
+#menuSesion{
+    background-color: gray;
+}
+
+#nombreAlbum{
+    display:none;
+
+}
+
+#botonCrearAlbum{
+    width: 10%;
+    height: 10%;
+}
+
+#botonCrearAlbum img{
+    width: 100%;
+    height:100%;
+}
+
+#botonCancelarAlbum{
+    width: 10%;
+    height: 10%;
+}
+
+#botonCancelarAlbum img{
+    width: 100%;
+    height:100%;
+}
+
+#tituloAlbum{
+    margin-top: 8%;
+    margin-left: 47%;
+}
+
+#nuevaImagen{
+    height: 6%;
+    width: 6%;
+    
+    margin-right: 10%;
+    margin-bottom: 2%;
+}
+
+#iconoSubirImagen{
+    width: 100%;
+    height: 100%;
+
+    
+}
+
+#barraLateral{
+    display:none;
+    z-index:2;
+    width:40%;
+    min-width:300px
+}
+
+#barraSuperior{
+    max-width:1200px;
+    margin:auto;
+    height: 90%;
+}
+
+#logo{
+    width:15%;
+    
+    margin-left: 37%
+}
+
+#divContenido{
+   max-width:1200px;
+   margin-top:100px;
+}
+
+.imagenesCreadas{
+     width:100%;
+}
+
+
+#myBtn{
+    width: 3%;
+    float: right;
+    position: relative;
+    top: 7px;
+}
+
+
+#opcionesAlbum{
+    float: right;
+    margin-left: 1%;
+}
+
+#botonCambiarNombre{
+    width: 4.5%;
+}
+
+#botonCambiarNombre img{
+    width: 120%;
+}
+
+#botonBorrarAlbum{
+    width: 6%;
+    height: 6%;
+}
+
+#botonBorrarAlbum img{
+    width: 100%;
+}
+
+
+.iconoImagenesCreadas{
+    width: 10%;
+    
+    position: relative;
+    top: 30px;
+    left: 120px;
+    
+    display:none;
+}
+
+
+
+
+
+/* PARTE DEL MODAL /////////////////////////////////////////*
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+  font-family: sans-serif;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close,.close2{
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close2:hover,.close:hover,
+.close2:focus,.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #4dd3f0;
+  color: white;
+  font-family: sans-serif;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #4dd3f0;
+  color: white;
+  font-family: sans-serif;
+}
+
+/*/////////////////////////////////*
+
+

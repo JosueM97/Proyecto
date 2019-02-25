@@ -1,0 +1,141 @@
+html{
+    background-color: gray;
+}
+div{
+    background-color: white;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 2%;
+    padding-left: 4%;
+    padding-bottom: 15%;
+    border: solid black 2px;
+    border-radius: 1%;
+    box-shadow: 4px 5px 4px 4px #888888;
+    height: 100%;
+}
+
+button{
+   
+    background-color: blue;
+    width: 10%;
+    height:5%;
+    color: white;
+}
+
+input{
+    width: 30%;
+    margin-bottom: 2%;
+    box-shadow: 4px 8px 4px 4px #888888;
+}
+
+td{
+  padding-bottom: 3%;  
+  text-align: right;
+  font-size: 20px;
+}
+
+
+#tituloRegistrar{
+    position: absolute;
+    top:10%;
+    left: 65%;
+    font-size: 25px;
+}
+
+#nombre{
+    position:absolute;
+    top:20%;
+    left: 55%;
+}
+#correo{
+    position:absolute;
+    top:30%;
+    left: 55%;
+}
+
+
+#pass{
+    position:absolute;
+    top:40%;
+    left: 55%;
+}
+#repetir{
+    position:absolute;
+    top:50%;
+    left: 55%;
+}
+
+#botonRegistrarse{
+    position:absolute;
+    top:60%;
+    left:67%;
+}
+
+#tituloIniciar{
+    position:absolute;
+    left: 65%;
+    top:10%;
+    font-size: 25px;
+}
+
+#correoSesion{
+    position:absolute;
+    top: 20%;
+    left: 55%;
+}
+
+#passSesion{
+    position:absolute;
+    top:30%;
+    left:55%;
+}
+
+#botonLogin{
+    position:absolute;
+    top:40%;
+    left:65%;
+}
+
+.apartadoRegistrarse{
+    display: none;
+}
+
+#cambiarRegistroTitulo{
+position: absolute;
+top: 55%;
+left: 55%;  
+}
+
+#cambiarLoginTitulo{
+    position: absolute;
+    top: 68.5%;
+    left: 57%;  
+    }
+
+#botonCambiarRegistro{
+    position: absolute;
+    top: 55.5%;
+    left: 70%;  
+}
+
+#botonCambiarLogin{
+    position: absolute;
+    top: 70%;
+    left: 72%;  
+}
+
+
+#barra1{
+    width: 30%;
+    position: absolute;
+    top: 66%;
+    left: 55%;
+}
+
+#barra2{
+width: 30%;
+position: absolute;
+top: 50%;
+left: 55%;
+}
